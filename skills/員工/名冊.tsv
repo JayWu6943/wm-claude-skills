@@ -1,0 +1,283 @@
+中文名	原名	推薦	已安裝	官方原檔	會做什麼
+敘事結構顧問	Narratologist	推薦		academic/academic-narratologist.md	運用經典故事理論，協助安排故事架構與角色成長，讓品牌故事更有感染力。
+消費心理顧問	Psychologist	推薦		academic/academic-psychologist.md	解析人的動機與行為模式，幫你理解客戶為什麼買、為什麼猶豫。
+統計分析師	Statistician	推薦		academic/academic-statistician.md	設計合理的測試並檢驗數據，幫你分辨成效是真的有效還是碰巧。
+AI 攝影指令師	Image Prompt Engineer	推薦		design/design-image-prompt-engineer.md	把你想要的畫面寫成精準指令，讓 AI 生成接近專業攝影的圖片。
+介面設計師	UI Designer	推薦	已安裝	design/design-ui-designer.md	設計美觀一致又好用的網頁與App畫面，並符合品牌形象。
+使用者研究員	UX Researcher	推薦		design/design-ux-researcher.md	觀察並測試用戶怎麼使用產品，找出卡關處，給出可執行的改善建議。
+品牌策略師	Brand Guardian	推薦		design/design-brand-guardian.md	建立品牌定位與識別，並確保各平台呈現風格一致，不走樣。
+網頁體驗診斷師	Persona Walkthrough Specialist	推薦	已安裝	design/design-persona-walkthrough.md	站在目標客戶角度逐段瀏覽網頁，指出哪裡讓人猶豫，並提出提升詢問率的建議。
+視覺敘事設計師	Visual Storyteller	推薦		design/design-visual-storyteller.md	把複雜資訊變成有故事感的圖像與影像內容，讓品牌更容易打動人。
+趣味創意設計師	Whimsy Injector	推薦		design/design-whimsy-injector.md	為品牌加入俏皮有趣的小互動與驚喜，讓客人印象深刻、更願意分享。
+體驗架構師	UX Architect	推薦		design/design-ux-architect.md	規劃網站版面與樣式規則，讓工程師照著做就能做出清楚好用的頁面。
+WooCommerce 電商工程師	WordPress Shopping Cart Engineer	推薦		engineering/engineering-wordpress-shopping-cart.md	用 WordPress 與 WooCommerce 建置線上商店，包含金流與結帳優化。
+WordPress 速度優化師	WordPress Performance Engineer	推薦		engineering/engineering-wordpress-performance.md	讓 WordPress 網站載入更快，處理快取、圖片與外掛效能問題。
+內容管理系統開發師	CMS Developer	推薦		engineering/engineering-cms-developer.md	開發 Drupal、WordPress 的佈景主題與外掛，規劃網站內容架構。
+前端工程師	Frontend Developer	推薦		engineering/engineering-frontend-developer.md	把設計稿做成能操作的網頁，並兼顧手機顯示與載入速度。
+快速原型開發師	Rapid Prototyper	推薦		engineering/engineering-rapid-prototyper.md	用最短時間做出可試用的雛形或最小版本，先驗證想法再投入。
+技術文件撰寫師	Technical Writer	推薦		engineering/engineering-technical-writer.md	把複雜的技術內容寫成清楚好懂的說明文件與教學。
+提示詞工程師	Prompt Engineer	推薦		engineering/engineering-prompt-engineer.md	撰寫並反覆測試給 AI 的指令，讓 AI 回答更穩定可靠。
+知識檢索工程師	RAG Pipeline Engineer	推薦		engineering/engineering-rag-pipeline-engineer.md	讓 AI 能從公司資料中找對內容再回答，適合做智慧客服與問答。
+語音轉文字工程師	Voice AI Integration Engineer	推薦		engineering/engineering-voice-ai-integration-engineer.md	把錄音自動轉成逐字稿與字幕，並串接到網站或應用程式。
+資料視覺化工程師	Data Visualization Engineer	推薦		engineering/engineering-data-visualization-engineer.md	挑選合適的圖表呈現數據，做出清楚、誠實又能互動的報表。
+隱私工程師	Privacy Engineer	推薦		engineering/engineering-privacy-engineer.md	在系統中落實個資辨識、同意管理與刪除機制，不只是寫隱私條款。
+投資研究員	Investment Researcher	推薦		finance/finance-investment-researcher.md	研究市場與資產價值，評估風險，協助做出投資組合決策。
+稅務規劃師	Tax Strategist	推薦		finance/finance-tax-strategist.md	規劃合法節稅方案並處理各地稅務法規，降低稅負又不踩線。
+記帳會計主管	Bookkeeper & Controller	推薦		finance/finance-bookkeeper-controller.md	處理日常記帳、對帳與月結，維持帳務正確並隨時能接受查核。
+財務分析師	Financial Analyst	推薦		finance/finance-financial-analyst.md	建立財務模型與預測，把數字轉成能支援經營決策的建議。
+預算規劃分析師	FP&A Analyst	推薦		finance/finance-fpa-analyst.md	編列預算、分析差異並滾動預測，協助分配資源與營運決策。
+AI 代理體驗優化師	Agentic Search Optimizer	推薦		marketing/marketing-agentic-search-optimizer.md	檢查 AI 助理能否在你的網站完成預約、購買等任務，並加以改善。
+AI 推薦曝光顧問	AI Citation Strategist	推薦	已安裝	marketing/marketing-ai-citation-strategist.md	檢視品牌在各大 AI 問答中的能見度，並改善內容讓 AI 更常推薦你。
+AI 搜尋優化師	AEO Foundations Architect	推薦		marketing/marketing-aeo-foundations.md	調整網站架構，讓 ChatGPT 等 AI 工具更容易找到並引用你的內容。
+IG 經營師	Instagram Curator	推薦	已安裝	marketing/marketing-instagram-curator.md	規劃 Instagram 的視覺風格與貼文格式，經營社群並提高互動。
+LinkedIn 內容經營師	LinkedIn Content Creator	推薦		marketing/marketing-linkedin-content-creator.md	撰寫 LinkedIn 專業貼文，建立個人品牌與思想領導力，帶來合作機會。
+SEO 優化師	SEO Specialist	推薦	已安裝	marketing/marketing-seo-specialist.md	優化網站技術與內容並建立外部連結，讓客人更容易在搜尋引擎找到你。
+YouTube 優化師	Video Optimization Specialist	推薦		marketing/marketing-video-optimization-specialist.md	優化 YouTube 影片的標題、縮圖、章節與留存率，提升觀看與曝光。
+內容企劃師	Content Creator	推薦	已安裝	marketing/marketing-content-creator.md	規劃內容行事曆、撰寫文案，並讓品牌故事在各平台吸引互動。
+公關傳播經理	PR & Communications Manager	推薦		marketing/marketing-pr-communications-manager.md	處理新聞稿、媒體關係與危機應對，建立並守護品牌的聲譽。
+出書共筆顧問	Book Co-Author	推薦		marketing/marketing-book-co-author.md	把專家的語音筆記與想法整理成有結構的書稿，協助打造個人品牌著作。
+成長駭客	Growth Hacker	推薦		marketing/marketing-growth-hacker.md	用數據與小實驗找出能快速增加客戶的管道，並優化轉換流程。
+短影音剪輯教練	Short-Video Editing Coach	推薦	已安裝	marketing/marketing-short-video-editing-coach.md	指導短影片後製，包含構圖、調色、配樂、字幕與各平台輸出設定。
+社群行銷策略師	Social Media Strategist	推薦		marketing/marketing-social-media-strategist.md	規劃跨平台社群活動、經營社群並維持即時互動，建立專業形象。
+私域流量營運師	Private Domain Operator	推薦		marketing/marketing-private-domain-operator.md	用企業微信經營客戶社群與會員，從導流到成交建立完整的客戶關係。
+輪播圖文產製師	Carousel Growth Engine	推薦		marketing/marketing-carousel-growth-engine.md	分析網站後自動生成 IG 與 TikTok 輪播貼文，並協助發佈。
+電子報行銷師	Email Marketing Strategist	推薦		marketing/marketing-email-strategist.md	規劃電子郵件行銷與自動化流程，包含歡迎信、喚回客戶與推薦信。
+廣告帳戶稽核師	Paid Media Auditor	推薦		paid-media/paid-media-auditor.md	全面檢查 Google 與 Meta 廣告帳戶，找出問題並提出優先改善建議。
+廣告文案企劃	Ad Creative Strategist	推薦		paid-media/paid-media-creative-strategist.md	撰寫廣告標題與文案，並設計素材測試方法，讓廣告更能說服人。
+搜尋字詞分析師	Search Query Analyst	推薦		paid-media/paid-media-search-query-analyst.md	分析廣告搜尋字詞並排除無效關鍵字，把預算集中在有意圖的客人。
+數據追蹤工程師	Tracking & Measurement Specialist	推薦		paid-media/paid-media-tracking-specialist.md	設定網站與廣告的轉換追蹤，確保每筆成交與廣告花費都能被正確計算。
+社群廣告投手	Paid Social Strategist	推薦		paid-media/paid-media-paid-social-strategist.md	規劃 Meta、TikTok 等社群廣告，從開發新客到再行銷全流程設計。
+關鍵字廣告策略師	PPC Campaign Strategist	推薦		paid-media/paid-media-ppc-strategist.md	規劃 Google 等搜尋廣告的帳戶架構、預算分配與出價策略。
+客戶意見分析師	Feedback Synthesizer	推薦		product/product-feedback-synthesizer.md	彙整各管道的客戶回饋，轉成可執行的優先順序與改善建議。
+市場趨勢研究員	Trend Researcher	推薦		product/product-trend-researcher.md	研究新興趨勢與競爭對手，提供可行的市場機會評估與策略建議。
+專案統籌經理	Project Shepherd	推薦		project-management/project-management-project-shepherd.md	協調跨部門專案的時程、資源與溝通，帶領專案從啟動順利完成。
+工作室營運經理	Studio Operations	推薦		project-management/project-management-studio-operations.md	管理工作室日常運作，優化流程與資源調度，讓團隊順暢工作。
+工作室製作總監	Studio Producer	推薦		project-management/project-management-studio-producer.md	統籌多個創意專案與資源分配，讓創意方向符合公司的商業目標。
+會議記錄專員	Meeting Notes Specialist	推薦		project-management/project-management-meeting-notes-specialist.md	把會議逐字稿或雜亂筆記整理成決議、待辦事項與未決問題的清楚摘要。
+資料研究整合師	Research Synthesist	推薦		research/research-synthesist.md	整理零散的資料來源，評估可信度並彙整出有證據支持的結論。
+主動開發策略師	Outbound Strategist	推薦		sales/sales-outbound-strategist.md	定義理想客戶並設計多管道的陌生開發流程，用研究做個人化接觸。
+優惠方案與名單開發師	Offer & Lead Gen Strategist	推薦		sales/sales-offer-lead-gen-strategist.md	設計讓人無法拒絕的優惠與誘餌內容，吸引潛在客戶主動留下聯絡方式。
+客戶深耕經理	Account Strategist	推薦		sales/sales-account-strategist.md	成交後持續經營既有客戶，規劃加購與續約，擴大長期合作關係。
+提案企劃師	Proposal Strategist	推薦		sales/sales-proposal-strategist.md	把客戶需求整理成有說服力的提案，寫出讓對方想簽約的重點與賣點。
+業績漏斗分析師	Pipeline Analyst	推薦		sales/sales-pipeline-analyst.md	幫你看懂客戶名單進度，找出哪些案子快成交、哪些卡住，提早預警業績缺口。
+需求訪談教練	Discovery Coach	推薦		sales/sales-discovery-coach.md	教業務如何設計提問、釐清客戶現況與痛點，找出真正的購買動機。
+個人成長導師	Personal Growth Mentor	推薦		specialized/personal-growth-mentor.md	陪你釐清目標、建立習慣並做決策，不說空泛的雞湯話。
+個資保護長	Data Privacy Officer	推薦		specialized/data-privacy-officer.md	建立公司個資保護制度，處理資料盤點、同意機制與外洩應變。
+定價分析師	Pricing Analyst	推薦		specialized/specialized-pricing-analyst.md	研究市場與成本，幫你訂出有競爭力又能賺到利潤的價格。
+客戶成功經理	Customer Success Manager	推薦		specialized/customer-success-manager.md	陪伴客戶使用服務、預防流失，並找機會促成續約與加購。
+客服人員	Customer Service	推薦		specialized/customer-service.md	親切回覆客戶詢問與抱怨，處理常見問題並適時轉交專人處理。
+應付帳款專員	Accounts Payable Agent	推薦		specialized/accounts-payable-agent.md	自動處理廠商付款、外包請款與固定帳單，省下人工對帳與匯款時間。
+文件製作師	Document Generator	推薦		specialized/specialized-document-generator.md	用程式自動產出排版專業的 PDF、簡報、Word 與 Excel 檔案。
+業務開發專員	Sales Outreach	推薦		specialized/sales-outreach.md	主動開發潛在客戶、跟進名單並處理異議，一步步促成成交。
+法律文件審閱員	Legal Document Review	推薦		specialized/legal-document-review.md	摘要合約內容、標出風險條款，並比對不同版本的差異。
+流程設計師	Workflow Architect	推薦		specialized/specialized-workflow-architect.md	把系統或服務的完整流程畫出來，含各種例外狀況，供開發直接使用。
+營運經理	Operations Manager	推薦		specialized/operations-manager.md	盤點並改善公司作業流程，設定指標，讓營運更有效率穩定。
+知識庫管理師	ZK Steward	推薦		specialized/zk-steward.md	用卡片盒筆記法整理知識庫，讓筆記互相連結、好查好用。
+經營策略顧問	Business Strategist	推薦		specialized/business-strategist.md	分析市場與競爭對手，協助規劃新市場、商業模式與成長方向。
+老闆幕僚長	Chief of Staff	推薦		specialized/specialized-chief-of-staff.md	幫老闆過濾雜訊、統籌事務與分流決策，讓老闆專心做重要的事。
+自動化流程顧問	Automation Governance Architect	推薦		specialized/automation-governance-architect.md	在導入自動化前先評估效益與風險，確保做出來的流程好維護。
+補助計畫撰寫師	Grant Writer	推薦		specialized/grant-writer.md	協助撰寫政府或基金會的補助申請書、預算說明與結案報告。
+財務長	Chief Financial Officer	推薦		specialized/chief-financial-officer.md	掌管資金配置、預算規劃與財務報告，協助老闆做出財務決策。
+客服支援專員	Support Responder	推薦		support/support-support-responder.md	透過多種管道回覆客戶問題，主動關懷並把客訴變成好口碑。
+數據報表分析師	Analytics Reporter	推薦		support/support-analytics-reporter.md	把原始數據整理成圖表與報告，追蹤成效並協助老闆做決策。
+法規遵循專員	Legal Compliance Checker	推薦		support/support-legal-compliance-checker.md	檢查營運、資料處理與內容發佈是否符合相關法律規範。
+系統維運工程師	Infrastructure Maintainer	推薦		support/support-infrastructure-maintainer.md	維持網站與系統穩定運作，兼顧效能、安全與成本。
+財務記帳分析師	Finance Tracker	推薦		support/support-finance-tracker.md	規劃預算、掌握現金流，並分析公司財務狀況與成長機會。
+重點摘要顧問	Executive Summary Generator	推薦		support/support-executive-summary-generator.md	把複雜的商業資訊濃縮成簡潔明確的決策摘要，給主管快速閱讀。
+上線把關審查員	Reality Checker	推薦		testing/testing-reality-checker.md	不輕易放行，必須有充分證據才認可網站或產品可以正式上線。
+工具評估顧問	Tool Evaluator	推薦		testing/testing-tool-evaluator.md	評估並比較各種軟體與平台，推薦最適合公司使用的工具。
+流程優化顧問	Workflow Optimizer	推薦		testing/testing-workflow-optimizer.md	分析各部門工作流程，找出可改善與自動化的地方，提升效率。
+測試截圖驗證員	Evidence Collector	推薦		testing/testing-evidence-collector.md	用截圖為證檢查網站問題，如實回報哪些有測、哪些沒測。
+無障礙檢測員	Accessibility Auditor	推薦		testing/testing-accessibility-auditor.md	檢查網站是否方便身障者使用，並用讀屏軟體實際測試。
+地理空間分析師	Geographer			academic/academic-geographer.md	分析地形、氣候與人口分布，協助判斷據點位置與區域市場的特性。
+文化研究顧問	Anthropologist			academic/academic-anthropologist.md	研究族群的習俗、信仰與生活方式，幫你設計有文化底蘊、不空泛的品牌或故事設定。
+歷史考證顧問	Historian			academic/academic-historian.md	查證年代與時代背景細節，確保內容與設定符合史實，不鬧笑話。
+介面驗收審稿員	UI Finish-Gate Reviewer			design/design-ui-finish-gate-reviewer.md	上線前檢查畫面是否千篇一律，依設計規範嚴格把關，不讓陽春成品過關。
+多元形象視覺師	Inclusive Visuals Specialist			design/design-inclusive-visuals-specialist.md	避開 AI 常見偏見，產出尊重各族群、不落入刻板印象的圖片與影片。
+App 上架工程師	Mobile Release Engineer			engineering/engineering-mobile-release-engineer.md	處理 App 簽章、打包與上架審核流程，並追蹤發佈後的當機狀況。
+Drupal 速度優化師	Drupal Performance Engineer			engineering/engineering-drupal-performance.md	讓 Drupal 網站載入更快、快取更有效，順利通過網站效能檢測。
+Drupal 電商工程師	Drupal Shopping Cart Engineer			engineering/engineering-drupal-shopping-cart.md	用 Drupal 建置商品目錄、金流與結帳流程的線上商店。
+PDF 生成架構師	PDF Engine Architect			engineering/engineering-pdf-engine-architect.md	打造把網頁穩定轉成 PDF 文件的引擎，並符合無障礙與封存規格。
+Rust 重構工程師	Rust Refactoring Specialist			engineering/engineering-rust-refactoring-specialist.md	大規模整理 Rust 程式，改善結構、修正警告並提升穩定度。
+ServiceNow 開發顧問	ServiceNow Developer & Mentor			engineering/engineering-servicenow-developer-mentor.md	協助排除 ServiceNow 平台的問題，判斷是原廠功能還是客製造成。
+事故應變指揮官	Incident Response Commander			engineering/engineering-incident-response-commander.md	系統出狀況時統籌處理，事後檢討原因並建立值班與應變流程。
+人工智慧工程師	AI Engineer			engineering/engineering-ai-engineer.md	開發並上線機器學習功能，把 AI 實際整合進公司的系統與應用。
+介面平台工程師	API Platform Engineer			engineering/engineering-api-platform-engineer.md	設計對外開放的資料介面，管理版本、權限與流量，方便夥伴串接。
+內部平台工程師	Platform Engineer			engineering/engineering-platform-engineer.md	建立工程師自助使用的標準化平台，讓開發團隊更快上線新服務。
+即時協作工程師	Realtime Collaboration Engineer			engineering/engineering-realtime-collaboration-engineer.md	開發多人同時編輯、即時同步與斷線重連的功能。
+多代理系統架構師	Multi-Agent Systems Architect			engineering/engineering-multi-agent-systems-architect.md	設計多個 AI 協同工作的流程，處理分工、信任、出錯復原與人工把關。
+多語系工程師	Internationalization Engineer			engineering/engineering-i18n-engineer.md	讓網站與軟體支援多國語言、日期與貨幣格式，包含由右至左的排版。
+大陸網路工程師	China Network Engineer			engineering/engineering-china-network-engineer.md	處理中國大陸常見品牌網路設備的設定，包含路由、防火牆與合規設計。
+履歷系統檢測師	ATS Validator Architect			engineering/engineering-ats-validator-architect.md	檢查履歷能否被求職系統正確讀取與評分，找出排版或內容的扣分處。
+嵌入式韌體工程師	Embedded Firmware Engineer			engineering/engineering-embedded-firmware-engineer.md	撰寫硬體裝置內部的底層程式，例如 ESP32、STM32 等晶片的控制軟體。
+影音串流工程師	Video Streaming Engineer			engineering/engineering-video-streaming-engineer.md	處理影片轉檔、分發與播放，讓不同網速的觀眾都能順暢觀看。
+後台介面優化師	Filament Optimization Specialist			engineering/engineering-filament-optimization-specialist.md	重新整理 Filament PHP 管理後台的結構，讓操作更有效率好用。
+後端架構師	Backend Architect			engineering/engineering-backend-architect.md	規劃伺服器、資料庫與系統架構，打造穩定安全又能擴充的後台。
+微信小程式開發師	WeChat Mini Program Developer			engineering/engineering-wechat-mini-program-developer.md	開發微信小程式，串接支付、訂閱訊息與整個微信生態。
+成本控管架構師	Autonomous Optimization Architect			engineering/engineering-autonomous-optimization-architect.md	持續測試各項介面的效能，同時嚴守預算與安全底線，避免費用暴衝。
+手機 App 開發師	Mobile App Builder			engineering/engineering-mobile-app-builder.md	開發 iOS 與 Android 手機應用程式，包含原生與跨平台做法。
+搜尋優化工程師	Search Relevance Engineer			engineering/engineering-search-relevance-engineer.md	調校網站搜尋功能，讓使用者輸入關鍵字就能找到最相關的結果。
+文件排版引擎架構師	Universal Document Compiler			engineering/engineering-universal-document-compiler.md	設計能自動排版各類文件的底層引擎，統一輸出分頁文件。
+智能合約工程師	Solidity Smart Contract Engineer			engineering/engineering-solidity-smart-contract-engineer.md	撰寫以太坊等區塊鏈上的合約，兼顧手續費節省與安全性。
+桌面軟體工程師	Desktop App Engineer			engineering/engineering-desktop-app-engineer.md	開發可在電腦安裝的軟體，處理安全、簽章與自動更新等細節。
+模型微調工程師	LLM Post-Training Engineer			engineering/engineering-llm-post-training-engineer.md	對大型語言模型做後續訓練與評估，確保模型改版前品質可靠。
+流程語法工程師	OrgScript Engineer			engineering/engineering-orgscript-engineer.md	設計並實作 OrgScript 語法與驗證，用來定義企業的商業邏輯。
+無障礙網頁工程師	Section 508 Accessibility Specialist			engineering/engineering-section-508-specialist.md	讓網站符合美國聯邦無障礙規範，支援讀屏軟體與各種使用需求。
+版本控管顧問	Git Workflow Master			engineering/engineering-git-workflow-master.md	規劃 Git 分支與提交規則，讓團隊改程式不互相打架。
+物聯網設備工程師	IoT Fleet Engineer			engineering/engineering-iot-fleet-engineer.md	管理大量連網裝置的註冊、資料回傳與遠端韌體更新。
+知識圖譜工程師	Knowledge Graph Engineer			engineering/engineering-knowledge-graph-engineer.md	把資訊整理成彼此關聯的節點，讓 AI 更快找到資料、減少亂回答。
+程式導讀工程師	Codebase Onboarding Engineer			engineering/engineering-codebase-onboarding-engineer.md	幫新進工程師快速看懂陌生程式，只根據實際程式內容說明，不亂猜。
+程式碼審查員	Code Reviewer			engineering/engineering-code-reviewer.md	檢查程式是否正確、安全、好維護，提出具體且可執行的修改建議。
+精簡修改工程師	Minimal Change Engineer			engineering/engineering-minimal-change-engineer.md	只修被要求的地方、不亂擴大範圍，避免小修補變成大改版。
+系統穩定工程師	SRE (Site Reliability Engineer)			engineering/engineering-sre.md	設定服務穩定度目標與監控，減少重複性維運工作，確保系統不當機。
+網路設備工程師	Network Engineer			engineering/engineering-network-engineer.md	設定與排除 Cisco、Juniper、Palo Alto 等設備的路由與防火牆問題。
+網頁高效運算工程師	WebAssembly Engineer			engineering/engineering-webassembly-engineer.md	把高效能程式搬到瀏覽器執行，處理跨語言整合與速度調校。
+美國政府網站設計師	USWDS Developer			engineering/engineering-uswds-developer.md	用美國政府設計系統打造符合無障礙規範的政府類網站介面。
+自動化部署工程師	DevOps Automator			engineering/engineering-devops-automator.md	建立自動上線與雲端維運流程，減少人工作業與出錯機會。
+資料修復工程師	AI Data Remediation Engineer			engineering/engineering-ai-data-remediation-engineer.md	自動找出並修正資料庫中的錯誤資料，確保資料不外流、修正過程可追蹤。
+資料工程師	Data Engineer			engineering/engineering-data-engineer.md	建立穩定的資料處理流程與儲存架構，把雜亂原始資料整理成可分析的資產。
+資料庫維運工程師	Database Reliability Engineer			engineering/engineering-database-reliability-engineer.md	確保資料庫不中斷、備份可還原，並演練災難發生時的復原流程。
+資料庫調校師	Database Optimizer			engineering/engineering-database-optimizer.md	設計資料表並優化查詢與索引，讓資料庫跑得更快更順。
+資深開發工程師	Senior Developer			engineering/engineering-senior-developer.md	負責高品質的網站實作，擅長 Laravel、進階樣式與 3D 網頁效果。
+資訊服務經理	IT Service Manager			engineering/engineering-it-service-manager.md	依 ITIL 規範建立資訊服務流程，處理問題、變更並確保服務品質。
+身分驗證工程師	Identity & Access Engineer			engineering/engineering-identity-access-engineer.md	建置登入、單一登入與權限管理機制，確保對的人才能看到對的資料。
+軟體架構師	Software Architect			engineering/engineering-software-architect.md	規劃系統整體設計與技術選型，讓軟體好維護也能長期擴充。
+郵件資料萃取師	Email Intelligence Engineer			engineering/engineering-email-intelligence-engineer.md	從雜亂的來往郵件中整理出結構化資訊，供 AI 與自動化流程使用。
+金流收費工程師	Payments & Billing Engineer			engineering/engineering-payments-billing-engineer.md	串接 Stripe、PayPal 等金流，處理訂閱收費、對帳與資安合規。
+開發工具工程師	Developer Tooling Engineer			engineering/engineering-developer-tooling-engineer.md	製作工程師用的命令列工具與內部平台，讓開發流程更順手。
+雲端成本優化師	FinOps Engineer			engineering/engineering-finops-engineer.md	分析雲端費用去向，透過調整配置與方案，替公司省下不必要的支出。
+飛書整合工程師	Feishu Integration Developer			engineering/engineering-feishu-integration-developer.md	開發飛書平台的機器人、審批與自動化流程，打造企業協作工具。
+高斯資料庫專家	GaussDB Expert Engineer			engineering/engineering-gaussdb-expert.md	專精華為 GaussDB 資料庫，負責資料表設計、查詢與效能調校。
+Blender 外掛工程師	Blender Add-on Engineer			game-development/blender/blender-addon-engineer.md	撰寫 Blender 擴充程式，把重複的 3D 作業變成一鍵完成。
+Unity 架構師	Unity Architect			game-development/unity/unity-architect.md	以模組化方式規劃 Unity 專案，讓大型遊戲更好擴充與維護。
+Unity 編輯器工具工程師	Unity Editor Tool Developer			game-development/unity/unity-editor-tool-developer.md	替遊戲開發團隊打造自訂編輯器工具與自動化流程，省下重複手動作業的時間。
+多人遊戲網路工程師	Godot Multiplayer Engineer			game-development/godot/godot-multiplayer-engineer.md	專門處理 Godot 遊戲的連線功能，讓即時多人對戰與同步運作正常。
+技術美術師	Technical Artist			game-development/technical-artist.md	串接美術與遊戲引擎，處理材質特效、模型優化與效能控管。
+技術美術師（Unreal）	Unreal Technical Artist			game-development/unreal-engine/unreal-technical-artist.md	打通美術與引擎之間的製作流程，處理材質、特效與資源匯入問題。
+虛擬角色造型師	Roblox Avatar Creator			game-development/roblox-studio/roblox-avatar-creator.md	設計 Roblox 平台的虛擬角色與配件，並處理上架審核的規格。
+連線架構設計師	Unreal Multiplayer Architect			game-development/unreal-engine/unreal-multiplayer-architect.md	規劃虛幻引擎遊戲的網路架構與伺服器設定，確保多人遊玩公平穩定。
+連線遊戲工程師	Unity Multiplayer Engineer			game-development/unity/unity-multiplayer-engineer.md	負責開發多人連線遊戲的網路功能，讓多位玩家能同步順暢地一起玩。
+遊戲伺服器程式師	Roblox Systems Scripter			game-development/roblox-studio/roblox-systems-scripter.md	撰寫 Roblox 遊戲的核心程式與資料儲存，並顧好安全與擴充性。
+遊戲劇情設計師	Narrative Designer			game-development/narrative-designer.md	設計遊戲的劇情、分支對話與世界觀，讓玩家沉浸其中。
+遊戲特效美術師	Unity Shader Graph Artist			game-development/unity/unity-shader-graph-artist.md	製作遊戲中的材質與即時視覺特效，讓畫面光影與質感更精緻。
+遊戲玩法程式設計師	Godot Gameplay Scripter			game-development/godot/godot-gameplay-scripter.md	用 Godot 引擎撰寫遊戲玩法與互動邏輯，並維持程式架構整潔穩定。
+遊戲系統工程師	Unreal Systems Engineer			game-development/unreal-engine/unreal-systems-engineer.md	負責虛幻引擎專案的效能調校與核心系統架構，支撐大型高品質遊戲。
+遊戲經濟設計師	Economy Designer			game-development/economy-designer.md	設計遊戲內的貨幣與資源循環，控制通膨並規劃合理的收費模式。
+遊戲著色器工程師	Godot Shader Developer			game-development/godot/godot-shader-developer.md	替 Godot 遊戲設計畫面特效與後製效果，同時兼顧執行效能。
+遊戲設計師	Game Designer			game-development/game-designer.md	設計遊戲玩法、規則與循環，並撰寫完整的遊戲企劃文件。
+遊戲音效工程師	Game Audio Engineer			game-development/game-audio-engineer.md	整合遊戲音效與動態配樂，兼顧空間音效表現與效能預算。
+遊戲體驗企劃	Roblox Experience Designer			game-development/roblox-studio/roblox-experience-designer.md	設計 Roblox 遊戲的玩家留存與收費機制，讓玩家願意常回來玩。
+開放世界場景師	Unreal World Builder			game-development/unreal-engine/unreal-world-builder.md	建置大型開放世界地圖與地形植被，並讓場景能順暢載入不卡頓。
+關卡設計師	Level Designer			game-development/level-designer.md	規劃遊戲關卡的空間配置與節奏，並用場景說故事。
+三維場景開發師	3D & Scene Developer			gis/gis-3d-scene-developer.md	把地形、點雲等地理資料做成可在網頁上互動瀏覽的 3D 場景。
+地圖設計師	Cartography Designer			gis/gis-cartography-designer.md	設計美觀易讀的地圖，包含配色、字型與標註，適用印刷與網頁。
+地理人工智慧工程師	GeoAI/ML Engineer			gis/gis-geoai-ml-engineer.md	訓練 AI 模型從衛星或空拍影像辨識地物，例如建物與土地覆蓋。
+地理方案工程師	Solution Engineer			gis/gis-solution-engineer.md	把策略構想做成可實際展示的地理資訊原型與概念驗證。
+地理處理自動化師	Geoprocessing Specialist			gis/gis-geoprocessing-specialist.md	用程式把重複的地圖資料處理流程自動化，節省人工操作時間。
+地理資料品管員	GIS QA Engineer			gis/gis-qa-engineer.md	檢查地理資料是否正確完整，包含座標系統、拓樸與說明資料。
+地理資訊分析師	GIS Analyst			gis/gis-analyst.md	負責日常製作地圖、管理圖層與查詢空間資料，確保資料正確。
+地理資訊顧問	Technical Consultant			gis/gis-technical-consultant.md	把企業的營運問題轉成地理資訊解決方案，並規劃技術藍圖與提案。
+建築資訊整合師	BIM/GIS Specialist			gis/gis-bim-specialist.md	整合建築模型與地理資訊，處理室內地圖與數位孿生的資料轉換。
+空拍測繪師	Drone/Reality Mapping Specialist			gis/gis-drone-reality-mapping.md	把無人機空拍照片處理成正射影像、地形模型與立體模型。
+空間數據科學家	Spatial Data Scientist			gis/gis-spatial-data-scientist.md	用統計與預測模型分析地理資料，找出地圖上看不出來的規律。
+空間資料工程師	Spatial Data Engineer			gis/gis-spatial-data-engineer.md	把來源雜亂的地理資料清理轉換成乾淨統一、可直接使用的資料集。
+網頁地圖工程師	Web GIS Developer			gis/gis-web-gis-developer.md	開發可互動操作的網頁地圖應用與即時儀表板，串接各種地圖服務。
+政府醫療合作顧問	Sovereign Health Systems Agent			healthcare/healthcare-sovereign-health-systems-agent.md	協助與政府衛生單位溝通合作，掌握公部門醫療政策的應對方式。
+臨床證據審查員	Clinical Evidence Agent			healthcare/healthcare-clinical-evidence-agent.md	替 AI 內容建立醫療證據標準，確保說法有臨床依據且值得信賴。
+醫療創新策略師	Healthcare Innovation Strategist			healthcare/healthcare-innovation-strategist.md	協助醫療新創創辦人整理故事與定位，向外界說清楚自家價值。
+B 站內容企劃	Bilibili Content Strategist			marketing/marketing-bilibili-content-strategist.md	規劃 B 站影片內容與社群經營，掌握彈幕文化與平台演算法。
+Podcast 經營策略師	Global Podcast Strategist			marketing/marketing-global-podcast-strategist.md	協助定位節目、累積聽眾並規劃變現，把想法做成有影響力的音頻品牌。
+Reddit 社群經營師	Reddit Community Builder			marketing/marketing-reddit-community-builder.md	以真誠互動與有價值的內容，在 Reddit 社群中長期經營品牌關係。
+TikTok 經營師	TikTok Strategist			marketing/marketing-tiktok-strategist.md	打造 TikTok 爆款短影音內容，掌握演算法並累積品牌粉絲社群。
+中國市場在地化策略師	China Market Localization Strategist			marketing/marketing-china-market-localization-strategist.md	根據中國平台的即時趨勢，規劃抖音、小紅書等進入市場的行銷策略。
+中國電商營運師	China E-Commerce Operator			marketing/marketing-china-ecommerce-operator.md	經營淘寶、天貓、京東等平台的商品上架、直播與大型檔期活動。
+中文 Podcast 製作顧問	Podcast Strategist			marketing/marketing-podcast-strategist.md	針對小宇宙等中文平台規劃節目定位、製作、推廣與變現。
+公眾號經營師	WeChat Official Account Manager			marketing/marketing-wechat-official-account.md	經營微信公眾號的內容與訂閱者互動，並提升轉換成交。
+多平台發文助理	Multi-Platform Publisher			marketing/marketing-multi-platform-publisher.md	把一篇文章調整後一次發佈到知乎、小紅書、公眾號等中國平台。
+小紅書經營師	Xiaohongshu Specialist			marketing/marketing-xiaohongshu-specialist.md	經營小紅書生活風格內容，用有美感的短內容帶動口碑與成長。
+微博營運策略師	Weibo Strategist			marketing/marketing-weibo-strategist.md	掌握微博熱搜、超話與輿情監測，協助品牌擴大聲量並維持粉絲。
+快手行銷策略師	Kuaishou Strategist			marketing/marketing-kuaishou-strategist.md	針對快手平台規劃短影音與直播銷售，經營下沉市場的信任與粉絲。
+應用商店優化師	App Store Optimizer			marketing/marketing-app-store-optimizer.md	優化 App 在商店的名稱、關鍵字與介紹，提升被搜尋到與下載的機會。
+抖音行銷策略師	Douyin Strategist			marketing/marketing-douyin-strategist.md	規劃抖音短影音與直播帶貨策略，掌握推薦機制來拉升品牌聲量。
+推特互動經營師	Twitter Engager			marketing/marketing-twitter-engager.md	在推特即時參與討論、發表串文，累積品牌權威與社群影響力。
+百度搜尋優化師	Baidu SEO Specialist			marketing/marketing-baidu-seo-specialist.md	針對中國百度搜尋引擎做排名優化，處理關鍵字與備案等相關事宜。
+直播帶貨教練	Livestream Commerce Coach			marketing/marketing-livestream-commerce-coach.md	訓練主播並優化直播間運作，包含話術、選品順序與成交技巧。
+知乎內容策略師	Zhihu Strategist			marketing/marketing-zhihu-strategist.md	在知乎以專業回答累積可信度，建立品牌的專業權威形象。
+社群輿情分析師	X/Twitter Intelligence Analyst			marketing/marketing-x-twitter-intelligence-analyst.md	研究 X 平台的趨勢與帳號動態，用公開資料整理出受眾洞察。
+跨境電商專員	Cross-Border E-Commerce Specialist			marketing/marketing-cross-border-ecommerce.md	負責亞馬遜、蝦皮等跨境平台的上架、物流、稅務與品牌出海規劃。
+開發者社群經營師	Developer Community Builder			marketing/marketing-developer-community-builder.md	經營開發者的 Discord 與論壇社群，把使用者培養成品牌支持者。
+多媒體廣告採購師	Programmatic & Display Buyer			paid-media/paid-media-programmatic-buyer.md	負責展示型廣告與程式化購買，在各類網站與平台上購買曝光。
+產品經理	Product Manager			product/product-manager.md	掌管產品從探索、規劃到上市的全流程，協調商業目標與使用者需求。
+行為引導設計師	Behavioral Nudge Engine			product/product-behavioral-nudge-engine.md	運用行為心理學調整互動節奏與方式，提升使用者的動力與成功率。
+開發排程規劃師	Sprint Prioritizer			product/product-sprint-prioritizer.md	規劃開發週期並排定功能優先順序，把資源用在最有價值的事上。
+開發者體驗工程師	DX Engineer			product/product-dx-engineer.md	簡化開發者上手流程，改善範例、錯誤訊息與操作回饋體驗。
+實驗追蹤專員	Experiment Tracker			project-management/project-management-experiment-tracker.md	規劃並追蹤 A/B 測試與各種實驗，用數據驗證想法是否有效。
+資深專案經理	Senior Project Manager			project-management/project-manager-senior.md	把需求規格拆成具體任務，掌控合理的專案範圍並記住過往專案經驗。
+開發流程管理員	Jira Workflow Steward			project-management/project-management-jira-workflow-steward.md	規範程式提交與版本分支流程，確保每次修改都能追溯到對應任務。
+售前技術顧問	Sales Engineer			sales/sales-engineer.md	在銷售階段負責技術說明、產品展示與方案評估，協助客戶做決定。
+大型案件策略師	Deal Strategist			sales/sales-deal-strategist.md	評估複雜企業案件的成交機率與風險，並擬定能贏單的策略。
+業務教練	Sales Coach			sales/sales-coach.md	輔導業務人員提升表現，協助檢討案件、通話技巧與業績預測。
+AI 程式安全檢查員	AI-Generated Code Security Auditor			security/security-ai-generated-code-auditor.md	檢查用 AI 快速做出來的網站或程式，找出外洩的密碼與安全漏洞並協助修補。
+區塊鏈安全稽核員	Blockchain Security Auditor			security/security-blockchain-security-auditor.md	檢查智慧合約有沒有漏洞，並寫出完整的安全稽核報告。
+威脅偵測工程師	Threat Detection Engineer			security/security-threat-detection-engineer.md	設計資安警報規則，從大量紀錄中及早發現可疑的入侵行為。
+威脅情資分析師	Threat Intelligence Analyst			security/security-threat-intelligence-analyst.md	追蹤駭客組織與攻擊手法，整理成報告並建立偵測機制。
+密鑰管理工程師	Secrets & Credential Hygiene Engineer			security/security-secrets-credential-engineer.md	管理系統用的密碼與金鑰，避免外洩，並定期更換確保安全。
+應用程式資安工程師	Application Security Engineer			security/security-appsec-engineer.md	在開發過程中檢查程式安全，找出漏洞並教開發人員寫出更安全的程式。
+滲透測試員	Penetration Tester			security/security-penetration-tester.md	經授權模擬駭客攻擊，找出網站與網路的弱點，事先補強。
+資安事件應變員	Incident Responder			security/security-incident-responder.md	公司遇到駭客入侵時，負責調查原因、阻止擴大並寫出檢討報告。
+資安合規稽核員	Compliance Auditor			security/security-compliance-auditor.md	協助公司準備各種資安認證，整理佐證資料並順利通過稽核。
+資安架構師	Security Architect			security/security-architect.md	在系統設計階段規劃整體防護，評估各種風險，讓系統一開始就更安全。
+資深資安維運工程師	Senior SecOps Engineer			security/security-senior-secops.md	檢查程式有沒有洩漏機密資料，並落實登入驗證與網站安全設定。
+雲端資安架構師	Cloud Security Architect			security/security-cloud-security-architect.md	規劃雲端主機與服務的安全設計，確保存放在雲端的資料不被入侵。
+沉浸式網頁工程師	XR Immersive Developer			spatial-computing/xr-immersive-developer.md	開發能在瀏覽器直接體驗的 AR、VR 虛擬實境網頁應用。
+終端機整合工程師	Terminal Integration Specialist			spatial-computing/terminal-integration-specialist.md	在蘋果軟體中加入指令視窗功能，並優化文字顯示的流暢度。
+蘋果 3D 繪圖工程師	macOS Spatial/Metal Engineer			spatial-computing/macos-spatial-metal-engineer.md	用蘋果原生技術開發高效能的 3D 畫面與空間運算應用。
+虛擬座艙互動設計師	XR Cockpit Interaction Specialist			spatial-computing/xr-cockpit-interaction-specialist.md	設計虛擬實境中的駕駛艙式操控系統，讓使用者身歷其境操作。
+虛擬空間介面設計師	XR Interface Architect			spatial-computing/xr-interface-architect.md	設計 AR、VR 環境中的操作方式與畫面配置，讓體驗直覺好用。
+頭戴裝置應用工程師	visionOS Spatial Engineer			spatial-computing/visionos-spatial-engineer.md	開發 Apple Vision Pro 上的立體空間應用與介面。
+AI 工具接口工程師	MCP Builder			specialized/specialized-mcp-builder.md	打造讓 AI 助理能連接外部工具與資料的 MCP 伺服器。
+AI 流程總指揮	Agents Orchestrator			specialized/agents-orchestrator.md	統籌整個開發流程，指派各個 AI 角色接力完成工作。
+AI 身分信任架構師	Agentic Identity & Trust Architect			specialized/agentic-identity-trust.md	設計讓多個 AI 助理能證明身分、權限與行為紀錄的驗證機制。
+Salesforce 系統架構師	Salesforce Architect			specialized/specialized-salesforce-architect.md	為大型企業設計 Salesforce 平台架構、系統整合與部署方式。
+中西翻譯員	Language Translator			specialized/language-translator.md	提供西班牙文與英文即時翻譯，並顧及文化與語氣差異。
+企業培訓規劃師	Corporate Training Designer			specialized/corporate-training-designer.md	設計員工教育訓練課程，並評估訓練成效持續改進。
+併購整合經理	M&A Integration Manager			specialized/ma-integration-manager.md	規劃公司併購後的整合工作，包含第一天準備、百日計畫與綜效追蹤。
+供應鏈策略師	Supply Chain Strategist			specialized/supply-chain-strategist.md	協助企業找供應商、做採購策略與品質管理，建立穩定供應鏈。
+土木結構工程師	Civil Engineer			specialized/specialized-civil-engineer.md	負責建築結構分析、地質設計與施工圖，並符合各國建築法規。
+報表發送專員	Report Distribution Agent			specialized/report-distribution-agent.md	依業務負責區域，自動把銷售報表寄給對應的業務人員。
+專案規劃審查師	Master Plan Architect			specialized/specialized-master-plan-architect.md	撰寫完整的實施計畫並挑毛病，只出規劃文件，不動手寫程式。
+專注音樂設計師	Focus Music Architect			specialized/specialized-focus-music-architect.md	設計能幫助專心的純音樂風格與提示詞，用於 AI 音樂生成。
+履歷優化師	Resume Tailor			specialized/resume-tailor.md	依應徵職缺調整履歷內容與關鍵字，但不會誇大不實經歷。
+房仲助理	Real Estate Buyer & Seller			specialized/real-estate-buyer-seller.md	協助房仲處理買賣雙方的委託、出價談判與成交流程。
+招募專員	Recruitment Specialist			specialized/recruitment-specialist.md	協助刊登職缺、篩選履歷與面試評估，並符合勞動法規。
+政府標案顧問	Government Digital Presales Consultant			specialized/government-digital-presales-consultant.md	協助中國政府數位轉型專案的方案設計、標書撰寫與客戶溝通。
+數據彙整專員	Data Consolidation Agent			specialized/data-consolidation-agent.md	把各處銷售資料整合成即時報表，依地區與業務人員呈現進度。
+新人報到專員	HR Onboarding			specialized/hr-onboarding.md	協助新進員工完成報到、文件、福利與公司文化適應。
+旅宿接待專員	Hospitality Guest Services			specialized/hospitality-guest-services.md	處理飯店餐廳的訂位、入住、客訴與會員，提升旅客滿意度。
+模型品質稽核員	Model QA Specialist			specialized/specialized-model-qa.md	獨立檢驗機器學習模型是否準確可靠，並產出稽核等級報告。
+永續發展專員	ESG & Sustainability Officer			specialized/esg-sustainability-officer.md	規劃企業環境、社會與治理方案，並整理永續報告與減碳行動。
+法國接案市場顧問	French Consulting Market Navigator			specialized/specialized-french-consulting-market.md	說明法國自由工作者的接案平台、費率與收款方式。
+法律案件接待員	Legal Client Intake			specialized/legal-client-intake.md	初步篩選來諮詢的客戶、蒐集案情並安排律師會談。
+法律計時請款員	Legal Billing & Time Tracking			specialized/legal-billing-time-tracking.md	記錄律師工作時數、開立帳單並追蹤收款，確保合規。
+留學顧問	Study Abroad Advisor			specialized/study-abroad-advisor.md	規劃海外留學申請，包含選校、文書、考試與簽證準備。
+程式碼考古師	Codebase Archaeologist			specialized/specialized-codebase-archaeologist.md	檢查被多個 AI 工具改過的程式，找出邏輯矛盾與無用的程式碼。
+程式索引工程師	LSP/Index Engineer			specialized/lsp-index-engineer.md	打造能理解程式碼結構的工具，讓編輯器提供更聰明的提示。
+組織心理師	Organizational Psychologist			specialized/organizational-psychologist.md	診斷團隊氣氛與員工壓力，協助主管打造健康有效率的團隊。
+組織變革顧問	Change Management Consultant			specialized/change-management-consultant.md	帶領公司順利導入新系統或新制度，減少員工抗拒並讓改變落地。
+美國政府雲端合規工程師	FedRAMP & RMF Compliance Engineer			specialized/specialized-fedramp-rmf-compliance.md	協助雲端服務通過美國政府的 FedRAMP 與 NIST 資安認證。
+謀略對弈顧問	Strategy Duel Agent			specialized/specialized-strategy-duel-agent.md	運用賽局理論與三十六計，模擬策略對抗並推演各種應對方案。
+貸款專員助理	Loan Officer Assistant			specialized/loan-officer-assistant.md	協助房貸業務處理客戶資料、文件收集、利率報價與撥款流程。
+跨文化包容顧問	Cultural Intelligence Strategist			specialized/specialized-cultural-intelligence-strategist.md	檢查產品是否有無意間排除特定族群，確保各文化背景都能接受。
+身分資料比對員	Identity Graph Operator			specialized/identity-graph-operator.md	讓多個 AI 對同一個人或單位都能得到一致的身分判斷結果。
+退換貨處理員	Retail Customer Returns			specialized/retail-customer-returns.md	處理零售門市與網路的退貨、換貨與退款，並防範濫用。
+醫療客服人員	Healthcare Customer Service			specialized/healthcare-customer-service.md	協助病患處理掛號、帳單與保險問題，必要時轉給醫護人員。
+醫療廣告法規顧問	Healthcare Marketing Compliance Specialist			specialized/healthcare-marketing-compliance.md	檢查醫療、藥品相關廣告是否符合中國法規，避免違規受罰。
+醫療申報編碼員	Medical Billing & Coding Specialist			specialized/medical-billing-coding-specialist.md	負責醫療診斷編碼與保險申報，減少被退件並加快回款。
+銷售數據擷取員	Sales Data Extraction Agent			specialized/sales-data-extraction-agent.md	監看 Excel 檔案，自動抓出本月、本年的銷售數字。
+長輩照護陪伴員	Aging Parent Care Companion			specialized/healthcare-aging-parent-care-companion.md	協助家屬安排長輩看診、用藥與照護溝通，也關心照顧者自己的狀況。
+開發者關係經理	Developer Advocate			specialized/specialized-developer-advocate.md	經營工程師社群、撰寫技術內容，推廣平台並收集開發者回饋。
+韓國商務禮儀顧問	Korean Business Navigator			specialized/specialized-korean-business-navigator.md	協助外國人了解韓國職場文化、決策流程與商務往來禮儀。
+介面測試工程師	API Tester			testing/testing-api-tester.md	測試系統之間的資料介面是否正常、夠快，也檢查第三方串接。
+效能測試工程師	Performance Benchmarker			testing/testing-performance-benchmarker.md	測量系統速度與負載能力，找出變慢的原因並提出改善。
+測試結果分析師	Test Results Analyzer			testing/testing-test-results-analyzer.md	分析測試數據與品質指標，整理出可行的改善建議。
+自動化測試工程師	Test Automation Engineer			testing/testing-test-automation-engineer.md	寫程式自動操作網頁做測試，減少手動檢查並避免誤報。
