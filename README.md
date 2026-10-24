@@ -19,6 +19,7 @@ exit 0
 1. 把 `skills/` 的技能裝到 `~/.claude/skills/`，把 `agents/` 的 AI 員工裝到 `~/.claude/agents/`。
 2. 關閉 impeccable 的匿名使用數據回傳。
 3. 安裝專案地圖（Trail-code）與程式關係圖（Codebase Memory）的指令。
+4. 在 `~/.claude/settings.json` 掛一個「對話開始時」的同步（`~/.claude/wm-skills-sync.sh`）。雲端的 Setup script 結果會被暫存，有了這個同步，每次開新對話都會抓最新版技能，約 1 秒。
 
 任何一步失敗都只印提示，不會擋住對話。
 
