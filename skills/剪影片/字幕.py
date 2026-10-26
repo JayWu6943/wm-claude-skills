@@ -11,9 +11,14 @@ OpenMontage 內建的逐字字幕是為英文設計的，中文會在字和字�
   "cues": [
     {"start": 0.0, "end": 2.4, "text": "證件照 大頭貼 跟形象照", "keys": ["形象照"]},
     ...
+  ],
+  "cards": [                                # 特效字卡（選填）
+    {"start": 5.0, "end": 6.2, "text": "形象照", "style": "big"},          # 畫面中間跳出的大字重點
+    {"start": 9.0, "end": 12.0, "text": "你覺得形象照\\n該怎麼拍？", "style": "question"}  # 上方提問框（藏鏡人提問）
   ]
 }
-每一句 text 最多 12 個字一行；超過就用 \\n 斷成兩行。keys 是要用品牌金色標出的重點字。
+每一句 text 一行最多 12 個字（老闆指定更少就照老闆的）；超過就用 \\n 斷成兩行。keys 是要用品牌金色標出的重點字。
+沒有片尾字卡就不要給 endcard。字幕每句出現時會有「彈出」的小動畫。
 
 用法：python 字幕.py 字幕稿.json 輸出.ass [寬 高]
 """
@@ -60,14 +65,16 @@ def build(script: dict, width: int, height: int) -> str:
         f"Style: Sub,{FONT},{sub_size},{WHITE},{WHITE},{INK},{INK},-1,0,0,0,100,100,2,0,1,6,0,2,60,60,{sub_margin},1",
         f"Style: Title,{FONT},{title_size},{WHITE},{WHITE},{INK_BOX},{INK_BOX},-1,0,0,0,100,100,4,0,3,22,0,8,80,80,{round(height * 0.12)},1",
         f"Style: End,{FONT},{sub_size},{WHITE},{WHITE},{INK},{INK},-1,0,0,0,100,100,4,0,1,0,0,5,60,60,0,1",
+        f"Style: Big,{FONT},{round(height * 0.075)},{GOLD},{GOLD},{INK},{INK},-1,0,0,0,100,100,6,0,1,9,4,5,60,60,0,1",
+        f"Style: Question,{FONT},{round(height * 0.036)},{INK},{INK},{WHITE},{WHITE},-1,0,0,0,100,100,2,0,3,26,0,8,90,90,{round(height * 0.14)},1",
         "",
         "[Events]",
         "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     ]
 
-    duration = float(script["duration"])
     end_len = float(script.get("endcard_seconds", 3)) if script.get("endcard") else 0
-    end_start = duration - end_len
+    duration = float(script.get("duration", 0)) or max(float(c["end"]) for c in script["cues"])
+    end_start = duration - end_len if end_len else float("inf")
 
     if script.get("title"):
         lines.append(f"Dialogue: 1,{ts(0)},{ts(min(3, end_start))},Title,,0,0,0,,{{\\fad(150,200)}}{script['title']}")
@@ -76,7 +83,23 @@ def build(script: dict, width: int, height: int) -> str:
         end = min(float(c["end"]), end_start)
         if end <= float(c["start"]):
             continue
-        lines.append(f"Dialogue: 0,{ts(float(c['start']))},{ts(end)},Sub,,0,0,0,,{highlight(c['text'], c.get('keys'))}")
+        pop = "{\\fscx86\\fscy86\\t(0,110,\\fscx100\\fscy100)}"
+        lines.append(f"Dialogue: 0,{ts(float(c['start']))},{ts(end)},Sub,,0,0,0,,{pop}{highlight(c['text'], c.get('keys'))}")
+
+    for c in script.get("cards", []):
+        text = c["text"].replace("\n", "\\N")
+        if c.get("style") == "question":
+            # 上方白底深字的提問框，淡入淡出
+            lines.append(
+                f"Dialogue: 4,{ts(float(c['start']))},{ts(float(c['end']))},Question,,0,0,0,,"
+                f"{{\\fad(180,180)\\fscx90\\fscy90\\t(0,160,\\fscx100\\fscy100)}}{text}"
+            )
+        else:
+            # 畫面中間跳出的大字：先放大超過一點再彈回來
+            lines.append(
+                f"Dialogue: 4,{ts(float(c['start']))},{ts(float(c['end']))},Big,,0,0,0,,"
+                f"{{\\fad(0,150)\\fscx40\\fscy40\\t(0,140,\\fscx112\\fscy112)\\t(140,240,\\fscx100\\fscy100)}}{text}"
+            )
 
     if end_len:
         # 片尾：整面品牌深色底，中間三行字，第一行（署名）用金色
