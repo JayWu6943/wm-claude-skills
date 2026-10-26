@@ -4,8 +4,8 @@
 {
   "fps": 60,
   "zooms": [
-    {"start": 0.0, "end": 2.5, "scale": 1.12, "type": "push"},  # 慢慢推近（開頭、情緒句）
-    {"start": 8.2, "end": 10.4, "scale": 1.15, "type": "jump"}   # 直接切近（重點句，常搭配 whoosh）
+    {"start": 0.0, "end": 2.5, "scale": 1.12, "type": "push"},  # 整段慢慢推近（開頭、情緒句）
+    {"start": 8.2, "end": 10.4, "scale": 1.15, "type": "jump"}   # 較快推近後停住（重點句，常搭配 whoosh）
   ],
   "sfx": [
     {"at": 0.0, "name": "impact-bass-1", "volume": 0.35},
@@ -25,16 +25,25 @@ import subprocess
 import sys
 
 FACE_Y = 0.38  # 放大時的中心偏上，臉通常在畫面上半部
+ATTACK = 0.4  # jump：放大花多久到位（秒）
+RELEASE = 0.45  # 放大結束後，花多久慢慢退回原樣（秒）
+SUPERSAMPLE = 2  # 先把畫面放大幾倍再算位置；放大過程不會一格一格抖
+
+
+def ease(u: str) -> str:
+    """平滑曲線：開始慢、中間快、結束慢（u 會先限制在 0～1）。"""
+    c = f"clip({u},0,1)"
+    return f"({c}*{c}*(3-2*{c}))"
 
 
 def zoom_expr(zooms: list[dict]) -> str:
+    """每個放大都是：慢慢進 → 停住 → 慢慢退，不會一下子跳上去或彈回來（總監說原本「卡卡的」）。"""
     parts = []
     for z in zooms:
         a, b, s = float(z["start"]), float(z["end"]), float(z.get("scale", 1.12))
-        if z.get("type") == "push":
-            parts.append(f"between(it,{a},{b})*({s - 1}*(it-{a})/{max(b - a, 0.01)})")
-        else:
-            parts.append(f"between(it,{a},{b})*{s - 1}")
+        rise = max(b - a, 0.01) if z.get("type") == "push" else ATTACK
+        env = f"{ease(f'(it-{a})/{rise}')}*(1-{ease(f'(it-{b})/{RELEASE}')})"
+        parts.append(f"{s - 1}*{env}")
     return "1+" + "+".join(parts) if parts else "1"
 
 
@@ -53,7 +62,8 @@ def main(src: str, ass: str, fx_path: str, dst: str, om: str = "/home/user/OpenM
 
     inputs = ["-i", src]
     video = (
-        f"[0:v]zoompan=z='{zoom_expr(fx.get('zooms', []))}':d=1"
+        f"[0:v]scale={int(w) * SUPERSAMPLE}:{int(h) * SUPERSAMPLE}:flags=lanczos,"
+        f"zoompan=z='{zoom_expr(fx.get('zooms', []))}':d=1"
         f":x='iw/2-(iw/zoom/2)':y='(ih-ih/zoom)*{FACE_Y}':s={w}x{h}:fps={fps},"
         f"subtitles='{ass}':fontsdir='{fonts}'[v]"
     )
