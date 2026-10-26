@@ -14,7 +14,7 @@ OpenMontage 內建的逐字字幕是為英文設計的，中文會在字和字�
   ],
   "cards": [                                # 特效字卡（選填）
     {"start": 5.0, "end": 6.2, "text": "形象照", "style": "big"},          # 畫面中間跳出的大字重點
-    {"start": 9.0, "end": 12.0, "text": "你覺得形象照\\n該怎麼拍？", "style": "question"}  # 上方提問框（藏鏡人提問）
+    {"start": 9.0, "end": 12.0, "text": "你覺得形象照\\n該怎麼拍？", "style": "question"}  # 藏鏡人提問（淡粉紅字，在字幕下方）
   ]
 }
 每一句 text 一行最多 12 個字（老闆指定更少就照老闆的）；超過就用 \\n 斷成兩行。keys 是要用品牌金色標出的重點字。
@@ -30,6 +30,7 @@ GOLD = "&H007CA7C9"  # 品牌金 #C9A77C（ASS 色碼是 藍綠紅 的順序）
 WHITE = "&H00FFFFFF"
 INK = "&H00161A1A"  # 品牌深色 #1a1916
 INK_BOX = "&H33161A1A"  # 深色、稍微透明，片頭標題底色
+PINK = "&H00D8C8FA"  # 淡粉紅 #FAC8D8，藏鏡人（鏡頭外提問的人）的字
 FONT = "Noto Sans TC"
 
 
@@ -49,10 +50,12 @@ def highlight(text: str, keys: list[str]) -> str:
 
 
 def build(script: dict, width: int, height: int) -> str:
-    sub_size = round(height * 0.038)  # 1920 高約 72
+    sub_size = round(height * 0.05)  # 1920 高約 96，手機上看得清楚
     title_size = round(height * 0.042)
-    # 字幕底線放在畫面約 73% 高的位置，避開下方 20% 平台按鈕區
-    sub_margin = round(height * 0.27)
+    # 出鏡的人的字幕底線在畫面約 65% 高；藏鏡人的字放在更下面（約 76%），像有人在畫面外跟他講話。
+    # 最下面 20% 會被平台的按鈕和說明文字擋住，不放字。
+    sub_margin = round(height * 0.35)
+    question_margin = round(height * 0.24)
     lines = [
         "[Script Info]",
         "ScriptType: v4.00+",
@@ -65,8 +68,8 @@ def build(script: dict, width: int, height: int) -> str:
         f"Style: Sub,{FONT},{sub_size},{WHITE},{WHITE},{INK},{INK},-1,0,0,0,100,100,2,0,1,6,0,2,60,60,{sub_margin},1",
         f"Style: Title,{FONT},{title_size},{WHITE},{WHITE},{INK_BOX},{INK_BOX},-1,0,0,0,100,100,4,0,3,22,0,8,80,80,{round(height * 0.12)},1",
         f"Style: End,{FONT},{sub_size},{WHITE},{WHITE},{INK},{INK},-1,0,0,0,100,100,4,0,1,0,0,5,60,60,0,1",
-        f"Style: Big,{FONT},{round(height * 0.075)},{GOLD},{GOLD},{INK},{INK},-1,0,0,0,100,100,6,0,1,9,4,5,60,60,0,1",
-        f"Style: Question,{FONT},{round(height * 0.036)},{INK},{INK},{WHITE},{WHITE},-1,0,0,0,100,100,2,0,3,26,0,8,90,90,{round(height * 0.14)},1",
+        f"Style: Big,{FONT},{round(height * 0.09)},{GOLD},{GOLD},{INK},{INK},-1,0,0,0,100,100,6,0,1,9,4,5,60,60,0,1",
+        f"Style: Question,{FONT},{sub_size},{PINK},{PINK},{INK},{INK},-1,0,0,0,100,100,2,0,1,6,0,2,60,60,{question_margin},1",
         "",
         "[Events]",
         "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
@@ -89,7 +92,7 @@ def build(script: dict, width: int, height: int) -> str:
     for c in script.get("cards", []):
         text = c["text"].replace("\n", "\\N")
         if c.get("style") == "question":
-            # 上方白底深字的提問框，淡入淡出
+            # 藏鏡人的話：淡粉紅字、放在出鏡字幕下面，淡入淡出
             lines.append(
                 f"Dialogue: 4,{ts(float(c['start']))},{ts(float(c['end']))},Question,,0,0,0,,"
                 f"{{\\fad(180,180)\\fscx90\\fscy90\\t(0,160,\\fscx100\\fscy100)}}{text}"
