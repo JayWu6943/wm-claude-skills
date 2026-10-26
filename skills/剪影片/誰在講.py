@@ -6,7 +6,7 @@
 做法（全部在這台電腦上跑，不用網路、不用錢）：
 1. 聲紋：每 0.2 秒取一段 0.8 秒的聲音，用聲紋模型（3D-Speaker 中文模型）算出「這段像誰」，分成兩個人。
 2. 哪一個是引導的人：
-   - 老闆有說的直接指定：女生（聲音高的）是引導加 `--guide high`，男生（聲音低的）是引導加 `--guide low`。
+   - 總監有說的直接指定：女生（聲音高的）是引導加 `--guide high`，男生（聲音低的）是引導加 `--guide low`。
    - 沒指定就看跟讀：把兩個人各自的話分開聽打，誰的話常常重複另一個人剛講過的，誰就是出鏡的人。
 3. 把兩個人各自講話的時間段分開聽打（各自接成一條聲音再聽打，比混在一起準很多），時間換回原片的時間。
 
@@ -185,7 +185,7 @@ def main(media: str, out_path: str, guide: str | None = None, om: str = "/home/u
 
     if guide in ("high", "low"):
         g = int(np.argmax(pitch)) if guide == "high" else int(np.argmin(pitch))
-        how = "老闆指定"
+        how = "總監指定"
     else:
         r0, r1 = repeats(said[1], said[0]), repeats(said[0], said[1])  # r0：0 號跟讀 1 號的次數
         g = 1 if r0 >= r1 else 0
