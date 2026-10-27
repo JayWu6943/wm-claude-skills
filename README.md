@@ -35,6 +35,7 @@ exit 0
 | `/關係圖` | 改東西之前先查會牽動哪些頁面（只查不刪） |
 | `/做影片` | 用 OpenMontage 做品牌短片 |
 | `/剪影片` | 把自己拍好的影片照後製流程自動剪成直式短片（會分辨引導的人和出鏡的人） |
+| `/IG經營` | IG 工具箱 13 個功能：短影音腳本（開頭公式與評分）、爆款研究、貼文、輪播、限動、個人檔案健檢、每週計畫、留言、回覆、私訊、一變多、成效檢討、去 AI 味 |
 | `/設計健檢` | 用 impeccable 幫官網或後台某一頁做設計健檢（只看不改，總監說「照改」才動手） |
 
 ### 第三方技能
@@ -42,6 +43,7 @@ exit 0
 | 技能 | 來源 | 授權 |
 | --- | --- | --- |
 | `frontend-design` | [anthropics/skills](https://github.com/anthropics/skills) | Apache 2.0（`skills/frontend-design/LICENSE.txt`） |
+| `IG經營`（中文化） | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT（`skills/IG經營/授權.txt`） |
 | `impeccable` v4.7.1 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Apache 2.0（`licenses/impeccable-LICENSE`、`licenses/impeccable-NOTICE.md`） |
 
 ### AI 員工（`agents/`）
