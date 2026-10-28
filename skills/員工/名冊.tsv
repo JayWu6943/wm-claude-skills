@@ -62,7 +62,7 @@ YouTube 優化師	Video Optimization Specialist	推薦		marketing/marketing-vide
 業績漏斗分析師	Pipeline Analyst	推薦		sales/sales-pipeline-analyst.md	幫你看懂客戶名單進度，找出哪些案子快成交、哪些卡住，提早預警業績缺口。
 需求訪談教練	Discovery Coach	推薦		sales/sales-discovery-coach.md	教業務如何設計提問、釐清客戶現況與痛點，找出真正的購買動機。
 個人成長導師	Personal Growth Mentor	推薦		specialized/personal-growth-mentor.md	陪你釐清目標、建立習慣並做決策，不說空泛的雞湯話。
-個資保護長	Data Privacy Officer	推薦		specialized/data-privacy-officer.md	建立公司個資保護制度，處理資料盤點、同意機制與外洩應變。
+個資保護長	Data Privacy Officer	推薦	已安裝	specialized/data-privacy-officer.md	建立公司個資保護制度，處理資料盤點、同意機制與外洩應變。
 定價分析師	Pricing Analyst	推薦		specialized/specialized-pricing-analyst.md	研究市場與成本，幫你訂出有競爭力又能賺到利潤的價格。
 客戶成功經理	Customer Success Manager	推薦		specialized/customer-success-manager.md	陪伴客戶使用服務、預防流失，並找機會促成續約與加購。
 客服人員	Customer Service	推薦		specialized/customer-service.md	親切回覆客戶詢問與抱怨，處理常見問題並適時轉交專人處理。
@@ -217,17 +217,17 @@ TikTok 經營師	TikTok Strategist		已安裝	marketing/marketing-tiktok-strateg
 售前技術顧問	Sales Engineer			sales/sales-engineer.md	在銷售階段負責技術說明、產品展示與方案評估，協助客戶做決定。
 大型案件策略師	Deal Strategist			sales/sales-deal-strategist.md	評估複雜企業案件的成交機率與風險，並擬定能贏單的策略。
 業務教練	Sales Coach			sales/sales-coach.md	輔導業務人員提升表現，協助檢討案件、通話技巧與業績預測。
-AI 程式安全檢查員	AI-Generated Code Security Auditor			security/security-ai-generated-code-auditor.md	檢查用 AI 快速做出來的網站或程式，找出外洩的密碼與安全漏洞並協助修補。
+AI 程式安全檢查員	AI-Generated Code Security Auditor		已安裝	security/security-ai-generated-code-auditor.md	檢查用 AI 快速做出來的網站或程式，找出外洩的密碼與安全漏洞並協助修補。
 區塊鏈安全稽核員	Blockchain Security Auditor			security/security-blockchain-security-auditor.md	檢查智慧合約有沒有漏洞，並寫出完整的安全稽核報告。
 威脅偵測工程師	Threat Detection Engineer			security/security-threat-detection-engineer.md	設計資安警報規則，從大量紀錄中及早發現可疑的入侵行為。
 威脅情資分析師	Threat Intelligence Analyst			security/security-threat-intelligence-analyst.md	追蹤駭客組織與攻擊手法，整理成報告並建立偵測機制。
-密鑰管理工程師	Secrets & Credential Hygiene Engineer			security/security-secrets-credential-engineer.md	管理系統用的密碼與金鑰，避免外洩，並定期更換確保安全。
+密鑰管理工程師	Secrets & Credential Hygiene Engineer		已安裝	security/security-secrets-credential-engineer.md	管理系統用的密碼與金鑰，避免外洩，並定期更換確保安全。
 應用程式資安工程師	Application Security Engineer			security/security-appsec-engineer.md	在開發過程中檢查程式安全，找出漏洞並教開發人員寫出更安全的程式。
 滲透測試員	Penetration Tester			security/security-penetration-tester.md	經授權模擬駭客攻擊，找出網站與網路的弱點，事先補強。
 資安事件應變員	Incident Responder			security/security-incident-responder.md	公司遇到駭客入侵時，負責調查原因、阻止擴大並寫出檢討報告。
 資安合規稽核員	Compliance Auditor			security/security-compliance-auditor.md	協助公司準備各種資安認證，整理佐證資料並順利通過稽核。
 資安架構師	Security Architect			security/security-architect.md	在系統設計階段規劃整體防護，評估各種風險，讓系統一開始就更安全。
-資深資安維運工程師	Senior SecOps Engineer			security/security-senior-secops.md	檢查程式有沒有洩漏機密資料，並落實登入驗證與網站安全設定。
+資深資安維運工程師	Senior SecOps Engineer		已安裝	security/security-senior-secops.md	檢查程式有沒有洩漏機密資料，並落實登入驗證與網站安全設定。
 雲端資安架構師	Cloud Security Architect			security/security-cloud-security-architect.md	規劃雲端主機與服務的安全設計，確保存放在雲端的資料不被入侵。
 沉浸式網頁工程師	XR Immersive Developer			spatial-computing/xr-immersive-developer.md	開發能在瀏覽器直接體驗的 AR、VR 虛擬實境網頁應用。
 終端機整合工程師	Terminal Integration Specialist			spatial-computing/terminal-integration-specialist.md	在蘋果軟體中加入指令視窗功能，並優化文字顯示的流暢度。
