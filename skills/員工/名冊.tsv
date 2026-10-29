@@ -133,7 +133,7 @@ ServiceNow 開發顧問	ServiceNow Developer & Mentor			engineering/engineering-
 網路設備工程師	Network Engineer			engineering/engineering-network-engineer.md	設定與排除 Cisco、Juniper、Palo Alto 等設備的路由與防火牆問題。
 網頁高效運算工程師	WebAssembly Engineer			engineering/engineering-webassembly-engineer.md	把高效能程式搬到瀏覽器執行，處理跨語言整合與速度調校。
 美國政府網站設計師	USWDS Developer			engineering/engineering-uswds-developer.md	用美國政府設計系統打造符合無障礙規範的政府類網站介面。
-自動化部署工程師	DevOps Automator			engineering/engineering-devops-automator.md	建立自動上線與雲端維運流程，減少人工作業與出錯機會。
+上線維運工程師	DevOps Automator		已安裝	engineering/engineering-devops-automator.md	建立自動上線與雲端維運流程，減少人工作業與出錯機會。
 資料修復工程師	AI Data Remediation Engineer			engineering/engineering-ai-data-remediation-engineer.md	自動找出並修正資料庫中的錯誤資料，確保資料不外流、修正過程可追蹤。
 資料工程師	Data Engineer			engineering/engineering-data-engineer.md	建立穩定的資料處理流程與儲存架構，把雜亂原始資料整理成可分析的資產。
 資料庫維運工程師	Database Reliability Engineer			engineering/engineering-database-reliability-engineer.md	確保資料庫不中斷、備份可還原，並演練災難發生時的復原流程。
@@ -141,7 +141,7 @@ ServiceNow 開發顧問	ServiceNow Developer & Mentor			engineering/engineering-
 資深開發工程師	Senior Developer			engineering/engineering-senior-developer.md	負責高品質的網站實作，擅長 Laravel、進階樣式與 3D 網頁效果。
 資訊服務經理	IT Service Manager			engineering/engineering-it-service-manager.md	依 ITIL 規範建立資訊服務流程，處理問題、變更並確保服務品質。
 身分驗證工程師	Identity & Access Engineer			engineering/engineering-identity-access-engineer.md	建置登入、單一登入與權限管理機制，確保對的人才能看到對的資料。
-軟體架構師	Software Architect			engineering/engineering-software-architect.md	規劃系統整體設計與技術選型，讓軟體好維護也能長期擴充。
+軟體架構師	Software Architect		已安裝	engineering/engineering-software-architect.md	規劃系統整體設計與技術選型，讓軟體好維護也能長期擴充。
 郵件資料萃取師	Email Intelligence Engineer			engineering/engineering-email-intelligence-engineer.md	從雜亂的來往郵件中整理出結構化資訊，供 AI 與自動化流程使用。
 金流收費工程師	Payments & Billing Engineer			engineering/engineering-payments-billing-engineer.md	串接 Stripe、PayPal 等金流，處理訂閱收費、對帳與資安合規。
 開發工具工程師	Developer Tooling Engineer			engineering/engineering-developer-tooling-engineer.md	製作工程師用的命令列工具與內部平台，讓開發流程更順手。
@@ -207,12 +207,12 @@ TikTok 經營師	TikTok Strategist		已安裝	marketing/marketing-tiktok-strateg
 跨境電商專員	Cross-Border E-Commerce Specialist			marketing/marketing-cross-border-ecommerce.md	負責亞馬遜、蝦皮等跨境平台的上架、物流、稅務與品牌出海規劃。
 開發者社群經營師	Developer Community Builder			marketing/marketing-developer-community-builder.md	經營開發者的 Discord 與論壇社群，把使用者培養成品牌支持者。
 多媒體廣告採購師	Programmatic & Display Buyer			paid-media/paid-media-programmatic-buyer.md	負責展示型廣告與程式化購買，在各類網站與平台上購買曝光。
-產品經理	Product Manager			product/product-manager.md	掌管產品從探索、規劃到上市的全流程，協調商業目標與使用者需求。
+產品經理	Product Manager		已安裝	product/product-manager.md	掌管產品從探索、規劃到上市的全流程，協調商業目標與使用者需求。
 行為引導設計師	Behavioral Nudge Engine			product/product-behavioral-nudge-engine.md	運用行為心理學調整互動節奏與方式，提升使用者的動力與成功率。
 開發排程規劃師	Sprint Prioritizer			product/product-sprint-prioritizer.md	規劃開發週期並排定功能優先順序，把資源用在最有價值的事上。
 開發者體驗工程師	DX Engineer			product/product-dx-engineer.md	簡化開發者上手流程，改善範例、錯誤訊息與操作回饋體驗。
 實驗追蹤專員	Experiment Tracker			project-management/project-management-experiment-tracker.md	規劃並追蹤 A/B 測試與各種實驗，用數據驗證想法是否有效。
-資深專案經理	Senior Project Manager			project-management/project-manager-senior.md	把需求規格拆成具體任務，掌控合理的專案範圍並記住過往專案經驗。
+專案管理師	Senior Project Manager		已安裝	project-management/project-manager-senior.md	把需求規格拆成具體任務，掌控合理的專案範圍並記住過往專案經驗。
 開發流程管理員	Jira Workflow Steward			project-management/project-management-jira-workflow-steward.md	規範程式提交與版本分支流程，確保每次修改都能追溯到對應任務。
 售前技術顧問	Sales Engineer			sales/sales-engineer.md	在銷售階段負責技術說明、產品展示與方案評估，協助客戶做決定。
 大型案件策略師	Deal Strategist			sales/sales-deal-strategist.md	評估複雜企業案件的成交機率與風險，並擬定能贏單的策略。
@@ -280,4 +280,4 @@ Salesforce 系統架構師	Salesforce Architect			specialized/specialized-salesf
 介面測試工程師	API Tester			testing/testing-api-tester.md	測試系統之間的資料介面是否正常、夠快，也檢查第三方串接。
 效能測試工程師	Performance Benchmarker			testing/testing-performance-benchmarker.md	測量系統速度與負載能力，找出變慢的原因並提出改善。
 測試結果分析師	Test Results Analyzer			testing/testing-test-results-analyzer.md	分析測試數據與品質指標，整理出可行的改善建議。
-自動化測試工程師	Test Automation Engineer			testing/testing-test-automation-engineer.md	寫程式自動操作網頁做測試，減少手動檢查並避免誤報。
+測試工程師	Test Automation Engineer		已安裝	testing/testing-test-automation-engineer.md	寫程式自動操作網頁做測試，減少手動檢查並避免誤報。

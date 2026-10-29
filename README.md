@@ -50,6 +50,7 @@ exit 0
 
 - 7 位改成中文名的員工：IG 經營師、內容企劃師、短影音剪輯教練、介面設計師、SEO 優化師、AI 推薦曝光顧問、網頁體驗診斷師。來自 [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)，MIT 授權（`licenses/agency-agents-LICENSE`）。這裡只改了名字與中文說明。
 - 4 位 impeccable 的輔助員工（`impeccable-*.md`）。
+- AI 系統小組 5 位：產品經理、軟體架構師、專案管理師、測試工程師、上線維運工程師。同樣來自 agency-agents，只改了名字與中文說明。
 
 ## 維護
 
