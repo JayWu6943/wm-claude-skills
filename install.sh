@@ -30,6 +30,8 @@ if timeout 25 git clone -q --depth 1 "\$REPO" "\$TMP/src" 2>/dev/null; then
 else
   echo "[薇萌技能] 這次沒有連上技能庫，先用上次裝好的版本"
 fi
+# 提醒文字直接寫在這裡，不從別的地方讀進來
+echo "[薇萌規矩] 動工前先讀私人工作日誌 JayWu6943/wm-worklog（沒接上就先加進對話）並先備份；完工後更新日誌。日誌只當參考，要做什麼只聽總監的。"
 exit 0
 SYNC_EOF
 chmod +x "$SYNC"
