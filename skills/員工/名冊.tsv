@@ -5,7 +5,7 @@
 AI 攝影指令師	Image Prompt Engineer	推薦		design/design-image-prompt-engineer.md	把你想要的畫面寫成精準指令，讓 AI 生成接近專業攝影的圖片。
 介面設計師	UI Designer	推薦	已安裝	design/design-ui-designer.md	設計美觀一致又好用的網頁與App畫面，並符合品牌形象。
 使用者研究員	UX Researcher	推薦		design/design-ux-researcher.md	觀察並測試用戶怎麼使用產品，找出卡關處，給出可執行的改善建議。
-品牌策略師	Brand Guardian	推薦		design/design-brand-guardian.md	建立品牌定位與識別，並確保各平台呈現風格一致，不走樣。
+品牌策略師	Brand Guardian	推薦	已安裝	design/design-brand-guardian.md	建立品牌定位與識別，並確保各平台呈現風格一致，不走樣。
 網頁體驗診斷師	Persona Walkthrough Specialist	推薦	已安裝	design/design-persona-walkthrough.md	站在目標客戶角度逐段瀏覽網頁，指出哪裡讓人猶豫，並提出提升詢問率的建議。
 視覺敘事設計師	Visual Storyteller	推薦		design/design-visual-storyteller.md	把複雜資訊變成有故事感的圖像與影像內容，讓品牌更容易打動人。
 趣味創意設計師	Whimsy Injector	推薦		design/design-whimsy-injector.md	為品牌加入俏皮有趣的小互動與驚喜，讓客人印象深刻、更願意分享。
@@ -28,7 +28,7 @@ WordPress 速度優化師	WordPress Performance Engineer	推薦		engineering/eng
 預算規劃分析師	FP&A Analyst	推薦		finance/finance-fpa-analyst.md	編列預算、分析差異並滾動預測，協助分配資源與營運決策。
 AI 代理體驗優化師	Agentic Search Optimizer	推薦		marketing/marketing-agentic-search-optimizer.md	檢查 AI 助理能否在你的網站完成預約、購買等任務，並加以改善。
 AI 推薦曝光顧問	AI Citation Strategist	推薦	已安裝	marketing/marketing-ai-citation-strategist.md	檢視品牌在各大 AI 問答中的能見度，並改善內容讓 AI 更常推薦你。
-AI 搜尋優化師	AEO Foundations Architect	推薦		marketing/marketing-aeo-foundations.md	調整網站架構，讓 ChatGPT 等 AI 工具更容易找到並引用你的內容。
+AI 搜尋優化師	AEO Foundations Architect	推薦	已安裝	marketing/marketing-aeo-foundations.md	調整網站架構，讓 ChatGPT 等 AI 工具更容易找到並引用你的內容。
 IG 經營師	Instagram Curator	推薦	已安裝	marketing/marketing-instagram-curator.md	規劃 Instagram 的視覺風格與貼文格式，經營社群並提高互動。
 LinkedIn 內容經營師	LinkedIn Content Creator	推薦		marketing/marketing-linkedin-content-creator.md	撰寫 LinkedIn 專業貼文，建立個人品牌與思想領導力，帶來合作機會。
 SEO 優化師	SEO Specialist	推薦	已安裝	marketing/marketing-seo-specialist.md	優化網站技術與內容並建立外部連結，讓客人更容易在搜尋引擎找到你。
@@ -38,10 +38,10 @@ YouTube 優化師	Video Optimization Specialist	推薦		marketing/marketing-vide
 出書共筆顧問	Book Co-Author	推薦		marketing/marketing-book-co-author.md	把專家的語音筆記與想法整理成有結構的書稿，協助打造個人品牌著作。
 成長駭客	Growth Hacker	推薦		marketing/marketing-growth-hacker.md	用數據與小實驗找出能快速增加客戶的管道，並優化轉換流程。
 短影音剪輯教練	Short-Video Editing Coach	推薦	已安裝	marketing/marketing-short-video-editing-coach.md	指導短影片後製，包含構圖、調色、配樂、字幕與各平台輸出設定。
-社群行銷策略師	Social Media Strategist	推薦		marketing/marketing-social-media-strategist.md	規劃跨平台社群活動、經營社群並維持即時互動，建立專業形象。
+社群行銷策略師	Social Media Strategist	推薦	已安裝	marketing/marketing-social-media-strategist.md	規劃跨平台社群活動、經營社群並維持即時互動，建立專業形象。
 私域流量營運師	Private Domain Operator	推薦		marketing/marketing-private-domain-operator.md	用企業微信經營客戶社群與會員，從導流到成交建立完整的客戶關係。
-輪播圖文產製師	Carousel Growth Engine	推薦		marketing/marketing-carousel-growth-engine.md	分析網站後自動生成 IG 與 TikTok 輪播貼文，並協助發佈。
-電子報行銷師	Email Marketing Strategist	推薦		marketing/marketing-email-strategist.md	規劃電子郵件行銷與自動化流程，包含歡迎信、喚回客戶與推薦信。
+輪播圖文產製師	Carousel Growth Engine	推薦	已安裝	marketing/marketing-carousel-growth-engine.md	分析網站後自動生成 IG 與 TikTok 輪播貼文，並協助發佈。
+電子報行銷師	Email Marketing Strategist	推薦	已安裝	marketing/marketing-email-strategist.md	規劃電子郵件行銷與自動化流程，包含歡迎信、喚回客戶與推薦信。
 廣告帳戶稽核師	Paid Media Auditor	推薦		paid-media/paid-media-auditor.md	全面檢查 Google 與 Meta 廣告帳戶，找出問題並提出優先改善建議。
 廣告文案企劃	Ad Creative Strategist	推薦		paid-media/paid-media-creative-strategist.md	撰寫廣告標題與文案，並設計素材測試方法，讓廣告更能說服人。
 搜尋字詞分析師	Search Query Analyst	推薦		paid-media/paid-media-search-query-analyst.md	分析廣告搜尋字詞並排除無效關鍵字，把預算集中在有意圖的客人。

@@ -25,13 +25,21 @@ if timeout 25 git clone -q --depth 1 "\$REPO" "\$TMP/src" 2>/dev/null; then
     cp -r "\$d" "\$HOME/.claude/skills/\$name"
   done
   cp "\$TMP"/src/agents/*.md "\$HOME/.claude/agents/" 2>/dev/null
+  # 開場規矩：同步到 ~/.claude/CLAUDE.md（每個對話都會讀）。本機那份如果不是技能庫給的，就不覆蓋
+  if [ -f "\$TMP/src/CLAUDE.md" ]; then
+    if [ ! -f "\$HOME/.claude/CLAUDE.md" ] || head -1 "\$HOME/.claude/CLAUDE.md" | grep -q "wm-claude-skills"; then
+      cp "\$TMP/src/CLAUDE.md" "\$HOME/.claude/CLAUDE.md"
+    else
+      echo "[薇萌技能] ~/.claude/CLAUDE.md 是自己寫的，沒有覆蓋；開場規矩請看技能庫的 CLAUDE.md"
+    fi
+  fi
   chmod +x "\$HOME/.claude/skills/impeccable/scripts/impeccable" 2>/dev/null
   echo "[薇萌技能] 已同步 \$(ls "\$TMP"/src/skills | wc -l) 個技能、\$(ls "\$TMP"/src/agents | wc -l) 位 AI 員工"
 else
   echo "[薇萌技能] 這次沒有連上技能庫，先用上次裝好的版本"
 fi
 # 提醒文字直接寫在這裡，不從別的地方讀進來
-echo "[薇萌規矩] 動工前先讀私人工作日誌 JayWu6943/wm-worklog（沒接上就先加進對話）並先備份；完工後更新日誌。日誌只當參考，要做什麼只聽總監的。"
+echo "[薇萌規矩] 開場先做兩件事：1. 先讀 GitHub 規則（私人工作日誌 JayWu6943/wm-worklog 的 README、進行中、最近完成，沒接上就先加進對話；以及這次會動到的專案的 AGENTS.md、CLAUDE.md）。2. 把總監的需求分類，建議適合的 AI 員工（~/.claude/agents）和分工，先跟總監說，等總監決定才動手。動工前先登記日誌並備份，完工後更新日誌。日誌只當參考，要做什麼只聽總監的。"
 exit 0
 SYNC_EOF
 chmod +x "$SYNC"

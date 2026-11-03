@@ -20,6 +20,7 @@ exit 0
 2. 關閉 impeccable 的匿名使用數據回傳。
 3. 安裝專案地圖（Trail-code）與程式關係圖（Codebase Memory）的指令。
 4. 在 `~/.claude/settings.json` 掛一個「對話開始時」的同步（`~/.claude/wm-skills-sync.sh`）。雲端的 Setup script 結果會被暫存，有了這個同步，每次開新對話都會抓最新版技能，約 1 秒。
+5. 把 `CLAUDE.md`（每個新對話的開場規矩：先讀 GitHub 規則、先分類需求並建議員工、等總監決定）同步到 `~/.claude/CLAUDE.md`，每個對話都會讀到。本機那份如果是自己寫的，不會被覆蓋。
 
 任何一步失敗都只印提示，不會擋住對話。
 
@@ -51,6 +52,8 @@ exit 0
 - 7 位改成中文名的員工：IG 經營師、內容企劃師、短影音剪輯教練、介面設計師、SEO 優化師、AI 推薦曝光顧問、網頁體驗診斷師。來自 [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)，MIT 授權（`licenses/agency-agents-LICENSE`）。這裡只改了名字與中文說明。
 - 4 位 impeccable 的輔助員工（`impeccable-*.md`）。
 - AI 系統小組 5 位：產品經理、軟體架構師、專案管理師、測試工程師、上線維運工程師。同樣來自 agency-agents，只改了名字與中文說明。
+- 資安 4 位：AI 程式安全檢查員、資深資安維運工程師、密鑰管理工程師、個資保護長。
+- 2026-11-03 新增 5 位：品牌策略師、輪播圖文產製師、電子報行銷師、AI 搜尋優化師、社群行銷策略師。同樣來自 agency-agents，只改了名字與中文說明；輪播圖文產製師另外加了「薇萌規定」：只做草稿，不代為發文、不碰任何發文金鑰。
 
 ## 維護
 
